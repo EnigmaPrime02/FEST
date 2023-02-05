@@ -6,7 +6,9 @@ SIMULACIÓN NUMÉRICA DE MARCHA ALEATORIA EN 3D
 El código usado para la simulación de caminante solo requiere un único parámetro por parte del usuario: La cantidad de pasos que se desea que el caminante aleatorio ejecute. Hay 3 archivos principales, los cuales operan de manera independiente:
 
 1 - creacion_de_histograma.py | RESULTADO: El código debe entregar un histograma que describe la frecuencia (normalizada) de las distancias finales al origen. 
+
 2 - visualizacion.py | RESULTADO: Grafico tridimensional de la marcha aleatoria.
+
 3 - Difusion.py | RESULTADO: Verificación de la proporcionalidad <r^2> = N y obtención numérica de la constante de difusión.
 
 Advertencia: Para 10000 o más datos, la simulación tardará un tiempo en completar (no más de 30 segundos). Para mejorar la velocidad de procesamiento, otorgar un número N bajo (del orden de 1000). 
